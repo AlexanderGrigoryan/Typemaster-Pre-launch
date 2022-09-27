@@ -50,8 +50,9 @@ body {
     color: #162542;
     padding: 11px 14px;
     background: #E8EFF2;
-    transition: 0.3s background;
+    transition: 0.5s background;
     transition: 0.3s color;
+    border: 0;
 }
 
 .header__button:hover{
@@ -93,6 +94,11 @@ body {
     background: #F16718;
     border-radius: 8px;
     text-transform: uppercase;
+    transition: 0.5s background;
+}
+
+.keyboard__btn:hover {
+    background: #FF9B62;
 }
 
 .keyboard__btn-text {
