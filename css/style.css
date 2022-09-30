@@ -259,7 +259,6 @@ body {
 }
 
 
-
 /*------------------- MEDIA -----------------------*/
 
 @media screen and (min-width: 768px) {
@@ -374,6 +373,30 @@ body {
     }
 }
 
+
+@media screen and (min-width:1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 120px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .functions__box {
+        width: 231px;
+    }
+
+    .functions__content {
+        column-gap: 35px;
+        
+    }
+
+    .wireless__content-info {
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
 
 @media screen and (min-width: 1440px) {
     .container {
